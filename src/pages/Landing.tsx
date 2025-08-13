@@ -76,7 +76,7 @@ const Landing = () => {
               <img
                 src="/certport.png"
                 alt="Certificate Illustration"
-                className="w-full max-w-md lg:max-w-lg" // Removed rounded-xl and shadow-lg
+                className="w-full max-w-md lg:max-w-lg" 
               />
             </div>
           </div>
@@ -90,8 +90,6 @@ const Landing = () => {
             <div>
               <h4 className="font-semibold mb-4">Quick Links</h4>
               <div className="space-y-2">
-                <p className="text-nitda-light hover:text-white cursor-pointer transition-colors">Home</p>
-                <p className="text-nitda-light hover:text-white cursor-pointer transition-colors">Verify Certificate</p>
                 <p className="text-nitda-light hover:text-white cursor-pointer transition-colors">About NITDA</p>
                 <p className="text-nitda-light hover:text-white cursor-pointer transition-colors">Login</p>
                 <p className="text-nitda-light hover:text-white cursor-pointer transition-colors">Support</p>
@@ -102,9 +100,9 @@ const Landing = () => {
               <h4 className="font-semibold mb-4">Contact Us</h4>
               <div className="space-y-2">
                 <p className="text-nitda-light">certificates@nitda.gov.ng</p>
-                <p className="text-nitda-light">+234 901 234 5678</p>
+                <p className="text-nitda-light">+234........</p>
                 <div className="text-nitda-light">
-                  <p>NITDA</p>
+                  <p><a href="https://www.google.com/maps/search/?api=1&query=NITDA+Headquarters,+Abuja,+Nigeria" target="_blank">NITDA</a></p>
                   <p>Headquarters</p>
                   <p>Abuja, Nigeria</p>
                 </div>

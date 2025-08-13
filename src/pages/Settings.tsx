@@ -15,12 +15,12 @@ const Settings = () => {
         <div className="max-w-4xl mx-auto">
           {/* Header */}
           <div className="flex items-center space-x-4 mb-8">
-            <Link to="/" className="flex items-center space-x-2 text-muted-foreground hover:text-foreground transition-colors">
+            <Link to="/admin" className="flex items-center space-x-2 text-muted-foreground hover:text-foreground transition-colors">
               <ArrowLeft className="w-4 h-4" />
               <span>Back to Admin</span>
             </Link>
           </div>
-          
+
           <div className="mb-8">
             <h1 className="text-3xl font-bold text-foreground mb-2">Settings</h1>
             <p className="text-muted-foreground">Configure system preferences and settings</p>
