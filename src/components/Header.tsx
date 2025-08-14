@@ -6,7 +6,6 @@ const Header = () => {
   
   const navItems = [
     { name: "Home", path: "/" },
-    { name: "Verify Certificate", path: "/#verify" }, 
     { name: "About", path: "https://nitda.gov.ng", external: true }
   ];
 
@@ -40,9 +39,11 @@ const Header = () => {
 
         {/* Login Button */}
         <div className="flex items-center">
-          <Button className="bg-nitda hover:bg-nitda-dark text-white" size="sm">
-            Login
-          </Button>
+          <Link to="/login">
+            <Button className="bg-nitda hover:bg-nitda-dark text-white" size="sm">
+              Login
+            </Button>
+          </Link>
         </div>
       </div>
     </header>
